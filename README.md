@@ -1,14 +1,16 @@
 # NAME
 
-Google::UULE::Generator - Blah blah blah
+Google::UULE::Generator - Generate Google UULE param
 
 # SYNOPSIS
 
-    use Google::UULE::Generator;
+    use Google::UULE::Generator qw/generate_uule/;
+
+    print generate_uule("Lezigne,Pays de la Loire,France"); # w+CAIQICIfTGV6aWduZSxQYXlzIGRlIGxhIExvaXJlLEZyYW5jZQ
 
 # DESCRIPTION
 
-Google::UULE::Generator is
+Google::UULE::Generator is to convert UULE name into uule= URI part.
 
 # AUTHOR
 

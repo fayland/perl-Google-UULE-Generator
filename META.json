@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "Generate Google UULE param",
    "author" : [
       "Fayland Lam <fayland@gmail.com>"
    ],
@@ -37,6 +37,7 @@
       },
       "runtime" : {
          "requires" : {
+            "MIME::Base64" : "0",
             "perl" : "5.008005"
          }
       },
@@ -47,6 +48,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/fayland/perl-Google-UULE-Generator/issues"
+      },
+      "homepage" : "https://github.com/fayland/perl-Google-UULE-Generator",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/fayland/perl-Google-UULE-Generator.git",
+         "web" : "https://github.com/fayland/perl-Google-UULE-Generator"
+      }
+   },
    "version" : "0.01",
    "x_generated_by_perl" : "v5.25.11",
    "x_serialization_backend" : "Cpanel::JSON::XS version 3.023"
